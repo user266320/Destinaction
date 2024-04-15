@@ -1,0 +1,34 @@
+ul{
+    display: flex;
+    padding: 10px;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    max-width: 400px;
+    min-width: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+input::after{
+    border: none;
+}

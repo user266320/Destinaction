@@ -1,0 +1,10 @@
+img{
+    width: 300px;
+}
+
+img:hover{
+    width: 350px;
+}
+.main-div{
+    margin: 10px;
+}
